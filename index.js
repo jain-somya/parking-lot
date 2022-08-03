@@ -38,6 +38,7 @@ async function processInputFile() {
       result = `"${command}": command not found!`;
     }
     fs.appendFile(outputFile, `\n${result}`, () => {});
+    console.log(`${result}`)
   }
 }
 
