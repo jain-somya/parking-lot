@@ -35,7 +35,7 @@ async function processInputFile() {
     } else if (command === "Vehicle_registration_number_for_driver_of_age") {
       result = getNumberWithDriverAge(input1);
     } else {
-      result = ` ${command}: command not found!`;
+      result = `"${command}": command not found!`;
     }
     fs.appendFile(outputFile, `\n${result}`, () => {});
   }
