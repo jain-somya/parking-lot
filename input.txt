@@ -1,0 +1,10 @@
+Create_parking_lot 4
+Park KA-01-HH-1234 driver_age 21
+Park PB-01-HH-1237 driver_age 21
+Park PB-01-TG-2341 driver_age 40
+Park PB-01-TG-2324 driver_age 40
+Leave 3
+Park PB-01-TG-2356 driver_age 40
+Park PB-01-TG-2383 driver_age 40
+Leave 4
+Park HR-29-TG-3098 driver_age 39

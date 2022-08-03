@@ -1,0 +1,12 @@
+{
+  "name": "parking-lot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "start": "node test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
