@@ -70,7 +70,7 @@ function getNumberWithDriverAge(parkingLot, age) {
   if (numbers.length) {
     return `"${numbers.join('","')}"`;
   } else {
-    return `\nNo cars parked by ${age} year old driver`;
+    return `No cars parked by ${age} year old driver`;
   }
 }
 function getSlotWithCarNumber(parkingLot, number) {

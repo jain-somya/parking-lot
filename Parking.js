@@ -16,7 +16,7 @@ export default class Parking {
       return `Parking is full`;
     }
     this.slotDetails[this.closestParking] = car;
-    let result = `Car with vehicle registration number "${car.number})}" has been parked at slot number ${this.closestParking}`;
+    let result = `Car with vehicle registration number "${car.number}" has been parked at slot number ${this.closestParking}`;
     // update closest parking
     for (let i = this.closestParking; i < this.totalSlots + 1; i++) {
       if (!this.slotDetails[i]) {
